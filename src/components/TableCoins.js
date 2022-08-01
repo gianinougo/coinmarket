@@ -2,7 +2,7 @@ import React from 'react'
 import CoinRow from './CoinRow'
 
 
-const titles = ['#', 'Coin', 'Price','Price Chage', '24h Volume']
+const titles = ['#', 'Coin', 'Price','24h Percent', '24h Volume']
 const TableCoins = ({coins, search}) => {
 
 
@@ -11,6 +11,7 @@ const TableCoins = ({coins, search}) => {
     })
     
   return (
+
     <table className='table table-dark mt-4 table-hover'>
         <thead>
             <tr>

@@ -3,6 +3,7 @@ import './App.css';
 import axios from 'axios';
 import TableCoins from './components/TableCoins';
 
+
 function App() {
 
   const [coins, setCoins] = useState([]);
@@ -20,6 +21,7 @@ function App() {
   }, []);
 
   return (
+
     <div className="container">
       <div className="row">
         <input type="text" placeholder='Search a Coin' className='form-control bg-dark text-light border-0 mt-4 

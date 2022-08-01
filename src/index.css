@@ -12,6 +12,43 @@ body {
 
 }
 
+#logo {
+  margin: 0 auto;
+  max-width: 10%;
+  padding: 10;
+  text-align: center;
+
+  /* Responsive mobile */
+
+  @media (max-width: 768px) {
+    max-width: 100%;
+  }
+
+  /* Responsive tablet */
+  @media (min-width: 768px) and (max-width: 992px) {
+    max-width: 50%;
+  }
+
+  /* Responsive desktop */
+
+  @media (min-width: 992px) {
+    max-width: 20%;
+  }
+
+  /* Responsive large desktop */
+  @media (min-width: 1200px) {
+    max-width: 10%;
+  }
+
+  /* Responsive extra large desktop */
+
+  @media (min-width: 1600px) {
+    max-width: 10%;
+  }
+
+  
+}
+
 /* Responsive for mobile */
 
   @media screen and (max-width: 600px) {

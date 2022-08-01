@@ -9,13 +9,15 @@ function formatNumber(number){
 }
 
 
+
+
 const CoinRow = ({coin, index}) => {
     //console.log(coin, index)
   return (
     <tr>
         <td>{index}</td>
         <td>
-            <img src={coin.image} alt={coin.name} className='img-fluid me-4' style={{width: '5%'}} />
+            <img id='logo' src={coin.image} alt={coin.name} className='img-fluid me-4' />
             <span>{coin.name}</span>
             <span className='ms-3 text-muted text-uppercase'>{coin.symbol}</span>
         </td>
